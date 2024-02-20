@@ -5,7 +5,7 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr; 
+    grid-template-columns: 1fr 3fr 1fr 1fr; 
     grid-template-rows: 25vh 75vh;
 }
 
@@ -19,15 +19,15 @@
 .header {
     background-color: purple;
     display: grid;
-    grid-column: 2 / 4;
+    grid-column: 2 / 5;
 }
 
 .main {
     background-color: red;
+    grid-column: 2 / 4;
 }
 
 .updates {
     background-color: orange;
-    grid-column: 3 / 4;
-
+    grid-column: 4 / 5;
 }
