@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,11 +9,13 @@
 .container {
     display: grid;
     grid-template-columns: 20% 80%;
+    font-family: "Roboto";
 }
 
 .sidebar {
     background-color: #60a5fa;
     height: 100vh;
+    color: #fafafa;;
 }
 
 .main {
