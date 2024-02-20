@@ -13,7 +13,7 @@
 /* SIDEBAR */
 
 .sidebar {
-    background-color: rgba(102,68,152,255);
+    background-color: rgb(102,68,152);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -74,24 +74,41 @@
 
 /* HEADER */
 
-.search {
+.header {
+    background-color: #fafafa;
     display: flex;
-    margin-left: 20px;
+    flex-direction: column;
 }
 
-.search-icon {
+.header-top {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+}
+
+
+.header-icon {
     height: 30px;
     width: 30px;
-    margin-top: 20px;
+    
 }
 
 .search-bar {
     background-color: #cbd5e1;
-    opacity: 0.6;
-    width: min(500px, 50%);
+    width: min(700px, 50%);
     height: 30px;
     border-radius: 20px;
-    margin: 20px;
+    margin-left: -50px;
+    text-align: center;
+    font-size: 24px;
 }
 
 .profile {
@@ -104,7 +121,6 @@
 .profile-pic {
     height: 80px;
     width: 80px;
-    fill: green;
 }
 
 .greeting {
@@ -114,19 +130,11 @@
     margin-left: 20px;
 }
 
-.header {
-    background-color: #fafafa;
-    display: grid;
-    align-items: center;
+.avatar {
+    height: 50px;
+    width: 50px;
 }
 
-.search-bar {
-    background-color: #cbd5e1;
-    opacity: 0.8;
-    width: min(500px, 50%);
-    height: 30px;
-    border-radius: 20px;
-}
 
 /* MAIN */
 
