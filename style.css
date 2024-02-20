@@ -118,6 +118,17 @@
     margin-left: 50px;
 }
 
+.header-bottom {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.profile {
+    width: 60vw;
+}
+
+
 .profile-pic {
     height: 80px;
     width: 80px;
@@ -133,6 +144,27 @@
 .avatar {
     height: 50px;
     width: 50px;
+}
+
+.buttons {
+}
+
+#dark-btn {
+    border: none;
+    cursor: pointer;
+}
+
+#dark-btn:hover {
+    fill: rgb(102,68,152);
+}
+
+#alert-btn {
+    border: none;
+    cursor: pointer;
+}
+
+#alert-btn:hover {
+    fill: rgb(102,68,152);
 }
 
 
