@@ -25,6 +25,19 @@
 .main {
     background-color: red;
     grid-column: 2 / 4;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.projects {
+    display: grid;
+    gap: 15px; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 20px;
+}
+
+.projects .box {
+    background-color: yellow;
+    height: 200px;
 }
 
 .updates {
