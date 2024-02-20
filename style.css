@@ -120,12 +120,14 @@
 
 .header-bottom {
     display: flex;
+    flex-direction: row;
+    justify-content: baseline;
     align-items: center;
-    margin: 20px;
+    margin-top: 10px;
 }
 
 .profile {
-    width: 60vw;
+    width: 50vw;
 }
 
 
@@ -147,6 +149,19 @@
 }
 
 .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+.header-button {
+    background-color: rgb(102,68,152);
+    color: white;
+    font-size: 20px;
+    padding: 8px 20px 8px 20px;
+    text-align: center;
+    gap: 10px;
+    border-radius: 20px;
 }
 
 #dark-btn {
@@ -165,6 +180,21 @@
 
 #alert-btn:hover {
     fill: rgb(102,68,152);
+}
+
+@media (max-width: 600px) {
+    .icon {
+        height: 20px; /* Adjusted icon size for smaller screens */
+        width: 20px; /* Adjusted icon size for smaller screens */
+    }
+    .greeting,
+    .search-bar,
+    .header-icon,
+    .avatar,
+    .header-button,
+    h3 {
+        display: none;
+    }
 }
 
 
