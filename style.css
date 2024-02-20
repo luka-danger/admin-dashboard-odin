@@ -9,7 +9,7 @@
 }
 
 .sidebar {
-    background-color: green;
+    background-color: #60a5fa;
     height: 100vh;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .header {
-    background-color: purple;
+    background-color: #fafafa;
     display: grid;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .projects {
-    background-color: blue;
+    background-color: #cbd5e1;
 }
 
 .boxes {
@@ -39,21 +39,21 @@
 }
 
 .box {
-    background-color: yellow;
-    border: 2px solid black;
+    background-color: #fafafa;
+    border: 1px solid #d1d5db;
     width: 80%;
     height: 150%;
     margin: 30px;
 }
 
 .update-container {
-    background-color: orange;
+    background-color: #cbd5e1;
     display: grid;
     place-items: center;
 }
 
 .update {
-    background-color: red;
+    background-color: #fafafa;
     width: 250px;
     height: 300px;
 }
