@@ -40,22 +40,36 @@
 
 .icon-text {
     margin: 30px;
+    display: flex;
+    align-items: center;
 }
 
-.icon-text:hover {
-    color: #d4d4d8;
+.icon {
+    height: 24x;
+    width: 24px;
+    margin-right: 10px;
+    fill: white;
 }
 
 .icon-text p {
     font-size: 20px;
 }
 
-.item-logo {
-    height: 24x;
-    width: 24px;
-    margin-right: 10px;
-    fill: white;
+@media (max-width: 600px) {
+    .icon {
+        height: 20px; /* Adjusted icon size for smaller screens */
+        width: 20px; /* Adjusted icon size for smaller screens */
+    }
+    .icon-text p,
+    .logo-text h1 {
+        display: none;
+    }
 }
+
+.icon-text:hover {
+    color: #d4d4d8;
+}
+
 
 .main {
     background-color: white;
