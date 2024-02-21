@@ -229,7 +229,7 @@
 
 .boxes {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 
 .box {
@@ -270,7 +270,7 @@
         width: 20px; /* Adjusted icon size for smaller screens */
     }
     .box {
-        display: none;
+        display: 1fr;
     }
 }
 
