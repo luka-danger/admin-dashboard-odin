@@ -102,10 +102,11 @@
 }
 
 .header-bottom {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     margin-top: 10px;
+    margin-right: 20px;
 }
 
 .avatar {
@@ -117,7 +118,6 @@
 .header-icon {
     height: 30px;
     width: 30px;
-    
 }
 
 .search-bar {
@@ -136,11 +136,6 @@
     flex-wrap: wrap;
     margin-left: 50px;
 }
-
-.profile {
-    width: 50vw;
-}
-
 
 .profile-pic {
     height: 80px;
@@ -174,6 +169,11 @@
     gap: 5px;
     border-radius: 20px;
     border: none;
+}
+
+.header-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 #dark-btn,
