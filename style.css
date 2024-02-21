@@ -380,7 +380,9 @@
 .header-icon.dark-mode,
 #alert-btn.dark-mode,
 .search-bar.dark-mode,
-.header-button.dark-mode {
+.header-button.dark-mode,
+.avatar.dark-mode,
+.dark-icon.dark-mode {
     display: none;
 }
 
