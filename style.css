@@ -120,11 +120,13 @@
 .header-icon {
     height: 30px;
     width: 30px;
+    fill: rgb(102,68,152);
 }
 
 .dark-icon {
     height: 30px;
     width: 30px;
+    fill: rgb(102,68,152);
 }
 
 .search-bar {
@@ -190,14 +192,6 @@
     cursor: pointer;
     background-color: #fafafa;
 }
-
-#dark-btn:hover,
-#alert-btn:hover,
-#search-btn:hover
-{
-    fill: rgb(102,68,152);
-}
-
 
 @media (max-width: 600px) {
     .icon {
