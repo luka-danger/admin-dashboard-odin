@@ -221,7 +221,7 @@
     overflow: hidden;
 }
 
-.projects h4{
+.content h4{
     font-size: 20px;
     margin-left: 20px;
     margin-top: 20px;
@@ -242,6 +242,7 @@
     padding-top: 50px;
     padding-left: 25px;
     padding-right: 20px;
+    border-radius: 10px;
 }
 
 .box h5 {
@@ -263,9 +264,67 @@
     fill: black;
 }
 
+/* UPDATES */
+
 .update-container {
     background-color: #cbd5e1;
     display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.friend-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.update-box,
+.friend-box {
+    background-color: #fafafa;
+    height: 80%;
+    width: 90%;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.update-box h6,
+.friend-box h6 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.friend-left,
+.friend-right {
+    display: flex;
+    flex-direction: column;
+    width: 50vh
+}
+
+.friend-pic,
+.friend-pic-square {
+    border-radius: 100px;
+    border: 1px black;
+    padding: 2px;
+    fill: white;
+}
+
+.friend-pic {
+    height: 100%;
+    width: 22%;
+}
+
+.friend-pic-square {
+    height: 120%;
+    width: 22%;
+}
+
+.friend-image-text {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.friend-text {
+    margin-left: 10px;
 }
 
 @media (max-width: 600px) {
