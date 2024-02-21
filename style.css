@@ -272,9 +272,17 @@
     grid-template-rows: 50% 50%;
 }
 
-.friend-box {
+.updates .text {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.divider {
+    border: 0.5px solid #737373;
+    width: 80%;
+    margin-left: 20px;
 }
 
 .update-box,
@@ -283,12 +291,14 @@
     height: 80%;
     width: 90%;
     border-radius: 10px;
-    font-size: 13px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
 }
 
 .update-box h6,
 .friend-box h6 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
