@@ -122,6 +122,11 @@
     width: 30px;
 }
 
+.dark-icon {
+    height: 30px;
+    width: 30px;
+}
+
 .search-bar {
     background-color: #cbd5e1;
     width: min(700px, 50%);
@@ -362,3 +367,36 @@
 }
 
 /* DARK MODE */
+
+.header.dark-mode {
+    background-color: black;
+}
+
+.projects.dark-mode,
+.updates.dark-mode {
+    background-color: rgb(59, 58, 58);
+}
+
+.header-icon.dark-mode,
+#alert-btn.dark-mode,
+.search-bar.dark-mode,
+.header-button.dark-mode {
+    display: none;
+}
+
+.dark-mode #profile-pic-dark {
+    display: block;
+}
+
+.dark-mode #profile-pic-light {
+    display: none;
+}
+
+/* Define styles for light mode */
+#profile-pic-dark {
+    display: none;
+}
+
+#profile-pic-light {
+    display: block;
+}
