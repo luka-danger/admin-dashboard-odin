@@ -16,7 +16,8 @@
 .main {
     background-color: white;
     display: grid;
-    grid-template-rows: 180px ;
+    grid-template-rows: 180px;
+    height: 110%;
 }
 
 /* SIDEBAR */
@@ -24,6 +25,7 @@
 .sidebar {
     background-color: rgb(102,68,152);
     display: flex;
+    height: 110%;
     flex-direction: column;
     color: white;
 }
@@ -216,6 +218,7 @@
 
 .projects {
     background-color: #cbd5e1;
+    overflow: hidden;
 }
 
 .projects h4{
