@@ -26,3 +26,8 @@ function darkMode(e) {
     profilePics.forEach(pic => pic.classList.toggle('#profile-pic-light'));
  }
 
+ function lightMode(e) {
+    let lightButton = document.querySelector('.light-btn');
+    lightButton.classList.toggle('dark-mode');
+ } 
+
