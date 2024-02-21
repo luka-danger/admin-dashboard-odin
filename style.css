@@ -7,10 +7,18 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 10fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 4fr;
     font-family: "Roboto";
 }
+
+/* MAIN */
+
+.main {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
 /* SIDEBAR */
 
 .sidebar {
@@ -84,7 +92,7 @@
     background-color: #fafafa;
     display: flex;
     flex-direction: column;
-    height: 650px;
+    height: 30%;
 }
 
 .header-top {
@@ -127,7 +135,6 @@
 .header-bottom {
     display: flex;
     flex-direction: row;
-    justify-content: baseline;
     align-items: center;
     margin-top: 10px;
 }
@@ -157,7 +164,7 @@
 .buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 35px;
+    gap: 20px;
 }
 
 .header-button {
@@ -166,7 +173,7 @@
     font-size: 20px;
     padding: 8px 20px 8px 20px;
     text-align: center;
-    gap: 10px;
+    gap: 5px;
     border-radius: 20px;
     border: none;
 }
@@ -202,14 +209,7 @@
     }
 }
 
-
-/* MAIN */
-
-.main {
-    background-color: white;
-    display: grid;
-    grid-template-rows: 20% 80%;
-}
+/* CONTENT */
 
 .content {
     display: grid;
@@ -223,13 +223,19 @@
 .boxes {
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: 10px;
 }
 
-.box p {
-    display: flex;
-    flex-wrap: wrap;
+.box {
+    background-color: #fafafa;
+    border-left: 10px solid rgb(102,68,152);
+    width: 80%;
+    height: 150px;
+    margin: 30px;
+    margin-left: 20px;
+
 }
+
+
 
 .box-icon {
     height: 24x;
