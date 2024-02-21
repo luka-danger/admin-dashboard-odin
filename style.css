@@ -264,6 +264,16 @@
     fill: black;
 }
 
+@media (max-width: 600px) {
+    .icon {
+        height: 20px; /* Adjusted icon size for smaller screens */
+        width: 20px; /* Adjusted icon size for smaller screens */
+    }
+    .box {
+        display: none;
+    }
+}
+
 /* UPDATES */
 
 .update-container {
@@ -294,6 +304,7 @@
     font-size: 12px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .update-box h6,
@@ -343,7 +354,11 @@
         width: 20px; /* Adjusted icon size for smaller screens */
     }
     .projects h4,
-    .box p {
+    .box p,
+    .text, 
+    h4,
+    .friend-box,
+    .update-box {
         display: none;
     }
 }
