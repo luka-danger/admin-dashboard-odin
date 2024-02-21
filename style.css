@@ -162,25 +162,24 @@
     text-align: center;
     gap: 10px;
     border-radius: 20px;
+    border: none;
 }
 
-#dark-btn {
+#dark-btn,
+#alert-btn,
+#search-btn {
     border: none;
     cursor: pointer;
+    background-color: #fafafa;
 }
 
-#dark-btn:hover {
+#dark-btn:hover,
+#alert-btn:hover,
+#search-btn:hover
+{
     fill: rgb(102,68,152);
 }
 
-#alert-btn {
-    border: none;
-    cursor: pointer;
-}
-
-#alert-btn:hover {
-    fill: rgb(102,68,152);
-}
 
 @media (max-width: 600px) {
     .icon {
@@ -221,24 +220,9 @@
     grid-template-columns: 50% 50%;
 }
 
-.box {
-    background-color: #fafafa;
-    border: 1px solid #d1d5db;
-    width: 80%;
-    height: 150%;
-    margin: 30px;
-}
-
 .update-container {
     background-color: #cbd5e1;
     display: grid;
-    place-items: center;
-}
-
-.update {
-    background-color: #fafafa;
-    width: 250px;
-    height: 300px;
 }
 
 /* DARK MODE */
