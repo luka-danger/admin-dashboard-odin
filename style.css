@@ -237,7 +237,7 @@
     border-left: 10px solid rgb(102,68,152);
     width: 70%;
     height: 24%;
-    margin: 30px;
+    margin-top: 25px;
     margin-left: 20px;
     padding-top: 50px;
     padding-left: 25px;
@@ -278,8 +278,6 @@
 
 .update-container {
     background-color: #cbd5e1;
-    display: grid;
-    grid-template-rows: 50% 50%;
 }
 
 .updates .text {
@@ -298,14 +296,17 @@
 .update-box,
 .friend-box {
     background-color: #fafafa;
-    height: 80%;
-    width: 90%;
+    height: 78%;
+    width: 85%;
     border-radius: 10px;
     font-size: 12px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
+    padding: 10px;
+    margin-top: 25px;
 }
 
 .update-box h6,
@@ -313,6 +314,7 @@
     font-size: 18px;
     font-weight: bold;
 }
+
 
 .friend-left,
 .friend-right {
@@ -331,11 +333,6 @@
 
 .friend-pic {
     height: 100%;
-    width: 22%;
-}
-
-.friend-pic-square {
-    height: 120%;
     width: 22%;
 }
 
